@@ -1,0 +1,6 @@
+.container_register{
+    min-height: 100vh;   
+    background: url('iceRegister.png');
+    background-size: cover;
+    background-position: center;
+}
