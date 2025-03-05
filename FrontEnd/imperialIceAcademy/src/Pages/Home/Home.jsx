@@ -30,8 +30,7 @@ function Home() {
       });
       
       setMessage('Cadastro realizado com sucesso!');
-     //Limpar formulário após envio bem-sucedido
-      
+     
       
       console.log('Resposta do servidor:', response.data);
       navigate('/register');
