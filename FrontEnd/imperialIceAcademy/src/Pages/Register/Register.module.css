@@ -3,4 +3,17 @@
     background: url('iceRegister.png');
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data_register{
+    width: 60%;
+    min-height: 500px;
+    height: auto;
+    background: var(--bg-color);
+    border: 2px solid var(--var-primary-color);
+    padding: 1.5rem 1rem;
+    border-radius: 12px;
 }

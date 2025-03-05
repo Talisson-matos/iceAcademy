@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Button = ({type, text, onclick}) => {
 
-const Button = styled.button`
+const Buttonbtn = styled.button`
     cursor: pointer;
     font-size: 1.2em;
     border: none;
@@ -20,7 +20,7 @@ const ButtonField = styled.div`
 
   return (
     <ButtonField>
-        <Button onClick={onclick}  type={type}>{text}</Button>
+        <Buttonbtn onClick={onclick}  type={type}>{text}</Buttonbtn>
     </ButtonField>
   )
 }
